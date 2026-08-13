@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trivia Quest</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── WELCOME SCREEN ── -->
+  <div id="screen-welcome" class="screen active">
+    <div class="card welcome-card">
+      <div class="logo-mark">TQ</div>
+      <h1>Trivia Quest</h1>
+      <p class="subtitle">40 questions across Philosophy, Technology, Sports &amp; Pop Culture. How many can you get right?</p>
+      <div class="category-pills">
+        <span class="pill pill-philosophy">Philosophy</span>
+        <span class="pill pill-technology">Technology</span>
+        <span class="pill pill-sports">Sports</span>
+        <span class="pill pill-popculture">Pop Culture</span>
+      </div>
+      <button id="btn-start" class="btn btn-primary btn-lg">Start Quiz</button>
+    </div>
+  </div>
+
+  <!-- ── QUIZ SCREEN ── -->
+  <div id="screen-quiz" class="screen">
+    <div class="quiz-shell">
+      <header class="quiz-header">
+        <div class="progress-meta">
+          <span id="q-counter" class="q-counter">1 / 40</span>
+          <span id="q-category" class="q-category-badge">Category</span>
+        </div>
+        <div class="score-live">
+          <span class="score-item score-correct">✓ <span id="score-right">0</span></span>
+          <span class="score-divider">·</span>
+          <span class="score-item score-wrong">✗ <span id="score-wrong">0</span></span>
+        </div>
+      </header>
+
+      <div class="progress-bar-track">
+        <div id="progress-bar" class="progress-bar-fill"></div>
+      </div>
+
+      <main class="quiz-body">
+        <div class="question-block">
+          <p id="question-text" class="question-text"></p>
+        </div>
+
+        <div id="answers-grid" class="answers-grid"></div>
+
+        <div id="feedback-block" class="feedback-block hidden">
+          <div id="feedback-icon" class="feedback-icon"></div>
+          <div class="feedback-text-wrap">
+            <p id="feedback-headline" class="feedback-headline"></p>
+            <p id="feedback-detail" class="feedback-detail"></p>
+          </div>
+        </div>
+
+        <div class="action-row">
+          <button id="btn-submit" class="btn btn-primary" disabled>Submit Answer</button>
+          <button id="btn-next" class="btn btn-ghost hidden">Next Question →</button>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <!-- ── RESULTS SCREEN ── -->
+  <div id="screen-results" class="screen">
+    <div class="card results-card">
+      <div id="results-emoji" class="results-emoji"></div>
+      <h2 id="results-headline" class="results-headline"></h2>
+      <div class="score-ring-wrap">
+        <svg class="score-ring" viewBox="0 0 120 120">
+          <circle class="ring-bg" cx="60" cy="60" r="52" />
+          <circle id="ring-fill" class="ring-fill" cx="60" cy="60" r="52" />
+        </svg>
+        <div class="score-ring-label">
+          <span id="results-pct" class="pct-number">0%</span>
+          <span class="pct-label">Score</span>
+        </div>
+      </div>
+      <div class="results-breakdown">
+        <div class="breakdown-item">
+          <span class="breakdown-value correct" id="res-correct">0</span>
+          <span class="breakdown-label">Correct</span>
+        </div>
+        <div class="breakdown-sep"></div>
+        <div class="breakdown-item">
+          <span class="breakdown-value wrong" id="res-wrong">0</span>
+          <span class="breakdown-label">Wrong</span>
+        </div>
+        <div class="breakdown-sep"></div>
+        <div class="breakdown-item">
+          <span class="breakdown-value total" id="res-total">0</span>
+          <span class="breakdown-label">Total</span>
+        </div>
+      </div>
+      <div class="results-category-scores" id="category-scores"></div>
+      <div class="results-actions">
+        <button id="btn-retry" class="btn btn-primary btn-lg">Try Again</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

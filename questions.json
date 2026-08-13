@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "category": "History of Philosophy",
+    "question": "Which ancient Greek philosopher is known as the 'Father of Western Philosophy'?",
+    "answers": ["Aristotle", "Plato", "Socrates", "Heraclitus"],
+    "correct": 2
+  },
+  {
+    "id": 2,
+    "category": "History of Philosophy",
+    "question": "Plato's famous work describing an ideal society governed by philosopher-kings is called what?",
+    "answers": ["Nicomachean Ethics", "The Republic", "Metaphysics", "Meditations"],
+    "correct": 1
+  },
+  {
+    "id": 3,
+    "category": "History of Philosophy",
+    "question": "René Descartes is famous for which foundational philosophical statement?",
+    "answers": ["I act, therefore I am", "I think, therefore I am", "To be is to be perceived", "Man is the measure of all things"],
+    "correct": 1
+  },
+  {
+    "id": 4,
+    "category": "History of Philosophy",
+    "question": "Which philosopher wrote 'Critique of Pure Reason'?",
+    "answers": ["David Hume", "John Locke", "Immanuel Kant", "Georg Hegel"],
+    "correct": 2
+  },
+  {
+    "id": 5,
+    "category": "History of Philosophy",
+    "question": "Friedrich Nietzsche introduced the concept of the 'Übermensch' in which work?",
+    "answers": ["Beyond Good and Evil", "The Birth of Tragedy", "Thus Spoke Zarathustra", "The Will to Power"],
+    "correct": 2
+  },
+  {
+    "id": 6,
+    "category": "History of Philosophy",
+    "question": "Who is the founder of Stoic philosophy?",
+    "answers": ["Epicurus", "Zeno of Citium", "Marcus Aurelius", "Seneca"],
+    "correct": 1
+  },
+  {
+    "id": 7,
+    "category": "History of Philosophy",
+    "question": "John Locke argued that the mind at birth is a blank slate, a concept known as:",
+    "answers": ["A priori knowledge", "Tabula rasa", "Cogito ergo sum", "The categorical imperative"],
+    "correct": 1
+  },
+  {
+    "id": 8,
+    "category": "History of Philosophy",
+    "question": "Which philosopher wrote 'Being and Nothingness', a foundational text of existentialism?",
+    "answers": ["Albert Camus", "Søren Kierkegaard", "Martin Heidegger", "Jean-Paul Sartre"],
+    "correct": 3
+  },
+  {
+    "id": 9,
+    "category": "History of Philosophy",
+    "question": "The philosophical school of Epicureanism taught that the highest good was:",
+    "answers": ["Virtue and duty", "Pleasure and tranquility", "Rationality and logic", "Submission to fate"],
+    "correct": 1
+  },
+  {
+    "id": 10,
+    "category": "History of Philosophy",
+    "question": "Which Chinese philosopher founded Confucianism?",
+    "answers": ["Laozi", "Sun Tzu", "Mencius", "Confucius"],
+    "correct": 3
+  },
+  {
+    "id": 11,
+    "category": "History of Technology",
+    "question": "In what year did Tim Berners-Lee invent the World Wide Web?",
+    "answers": ["1983", "1989", "1993", "1995"],
+    "correct": 1
+  },
+  {
+    "id": 12,
+    "category": "History of Technology",
+    "question": "Who is credited with inventing the telephone in 1876?",
+    "answers": ["Thomas Edison", "Nikola Tesla", "Alexander Graham Bell", "Guglielmo Marconi"],
+    "correct": 2
+  },
+  {
+    "id": 13,
+    "category": "History of Technology",
+    "question": "The first programmable electronic general-purpose computer, ENIAC, was completed in which year?",
+    "answers": ["1936", "1945", "1951", "1958"],
+    "correct": 1
+  },
+  {
+    "id": 14,
+    "category": "History of Technology",
+    "question": "Which company released the first mass-market personal computer, the Apple II, in 1977?",
+    "answers": ["IBM", "Microsoft", "Commodore", "Apple"],
+    "correct": 3
+  },
+  {
+    "id": 15,
+    "category": "History of Technology",
+    "question": "The printing press with movable type was invented by whom around 1440?",
+    "answers": ["Leonardo da Vinci", "Johannes Gutenberg", "Galileo Galilei", "Isaac Newton"],
+    "correct": 1
+  },
+  {
+    "id": 16,
+    "category": "History of Technology",
+    "question": "Which country launched Sputnik 1, the first artificial Earth satellite, in 1957?",
+    "answers": ["United States", "China", "Soviet Union", "Germany"],
+    "correct": 2
+  },
+  {
+    "id": 17,
+    "category": "History of Technology",
+    "question": "James Watt's improvements to the steam engine in the 1760s–70s helped spark which revolution?",
+    "answers": ["The French Revolution", "The Digital Revolution", "The Industrial Revolution", "The Agricultural Revolution"],
+    "correct": 2
+  },
+  {
+    "id": 18,
+    "category": "History of Technology",
+    "question": "The transistor, which transformed electronics, was invented at Bell Labs in which year?",
+    "answers": ["1939", "1947", "1955", "1962"],
+    "correct": 1
+  },
+  {
+    "id": 19,
+    "category": "History of Technology",
+    "question": "Who co-founded Microsoft alongside Bill Gates?",
+    "answers": ["Steve Jobs", "Paul Allen", "Steve Wozniak", "Gordon Moore"],
+    "correct": 1
+  },
+  {
+    "id": 20,
+    "category": "History of Technology",
+    "question": "What was the name of the first commercially successful smartphone, released by Apple in 2007?",
+    "answers": ["BlackBerry Bold", "Nokia N95", "iPhone", "HTC Dream"],
+    "correct": 2
+  },
+  {
+    "id": 21,
+    "category": "History of Sports",
+    "question": "In which year were the first modern Olympic Games held?",
+    "answers": ["1888", "1896", "1900", "1904"],
+    "correct": 1
+  },
+  {
+    "id": 22,
+    "category": "History of Sports",
+    "question": "Who holds the record for most Olympic gold medals ever won?",
+    "answers": ["Carl Lewis", "Usain Bolt", "Michael Phelps", "Larisa Latynina"],
+    "correct": 2
+  },
+  {
+    "id": 23,
+    "category": "History of Sports",
+    "question": "The FIFA World Cup was first held in 1930. Which country won that inaugural tournament?",
+    "answers": ["Brazil", "Argentina", "Uruguay", "Italy"],
+    "correct": 2
+  },
+  {
+    "id": 24,
+    "category": "History of Sports",
+    "question": "Who is widely regarded as the first global basketball superstar, retiring with 6 NBA championships with the Chicago Bulls?",
+    "answers": ["LeBron James", "Kobe Bryant", "Magic Johnson", "Michael Jordan"],
+    "correct": 3
+  },
+  {
+    "id": 25,
+    "category": "History of Sports",
+    "question": "Roger Bannister became the first person to run a mile in under four minutes in which year?",
+    "answers": ["1948", "1952", "1954", "1960"],
+    "correct": 2
+  },
+  {
+    "id": 26,
+    "category": "History of Sports",
+    "question": "At the 1936 Berlin Olympics, which American athlete won four gold medals, embarrassing the Nazi regime?",
+    "answers": ["Jim Thorpe", "Jesse Owens", "Joe Louis", "Ralph Metcalfe"],
+    "correct": 1
+  },
+  {
+    "id": 27,
+    "category": "History of Sports",
+    "question": "The 'Rumble in the Jungle' 1974 boxing match was between Muhammad Ali and which opponent?",
+    "answers": ["Joe Frazier", "Sonny Liston", "George Foreman", "Ken Norton"],
+    "correct": 2
+  },
+  {
+    "id": 28,
+    "category": "History of Sports",
+    "question": "Which team won the first-ever Super Bowl in January 1967?",
+    "answers": ["Dallas Cowboys", "Green Bay Packers", "Kansas City Chiefs", "Miami Dolphins"],
+    "correct": 1
+  },
+  {
+    "id": 29,
+    "category": "History of Sports",
+    "question": "Pelé is widely considered the greatest footballer of all time. How many FIFA World Cups did he win?",
+    "answers": ["1", "2", "3", "4"],
+    "correct": 2
+  },
+  {
+    "id": 30,
+    "category": "History of Sports",
+    "question": "The Boston Marathon, the world's oldest annual marathon, was first run in which year?",
+    "answers": ["1897", "1908", "1920", "1936"],
+    "correct": 0
+  },
+  {
+    "id": 31,
+    "category": "Pop Culture",
+    "question": "Which band released the best-selling album 'Thriller' in 1982?",
+    "answers": ["The Beatles", "Michael Jackson", "Prince", "Madonna"],
+    "correct": 1
+  },
+  {
+    "id": 32,
+    "category": "Pop Culture",
+    "question": "The TV series 'Friends' aired for how many seasons on NBC?",
+    "answers": ["8", "9", "10", "12"],
+    "correct": 2
+  },
+  {
+    "id": 33,
+    "category": "Pop Culture",
+    "question": "Which film franchise features the character 'James Bond, Agent 007'?",
+    "answers": ["Mission: Impossible", "Bourne", "James Bond", "Jack Ryan"],
+    "correct": 2
+  },
+  {
+    "id": 34,
+    "category": "Pop Culture",
+    "question": "Which social media platform introduced the concept of the 'tweet'?",
+    "answers": ["Facebook", "Instagram", "Twitter", "Snapchat"],
+    "correct": 2
+  },
+  {
+    "id": 35,
+    "category": "Pop Culture",
+    "question": "In which decade did hip-hop music originate in New York City?",
+    "answers": ["1960s", "1970s", "1980s", "1990s"],
+    "correct": 1
+  },
+  {
+    "id": 36,
+    "category": "Pop Culture",
+    "question": "The phrase 'May the Force be with you' is from which iconic film franchise?",
+    "answers": ["Star Trek", "Star Wars", "The Matrix", "Dune"],
+    "correct": 1
+  },
+  {
+    "id": 37,
+    "category": "Pop Culture",
+    "question": "Which British rock band famously performed on the rooftop of the Apple Corps building in their final public concert in 1969?",
+    "answers": ["The Rolling Stones", "Led Zeppelin", "The Who", "The Beatles"],
+    "correct": 3
+  },
+  {
+    "id": 38,
+    "category": "Pop Culture",
+    "question": "The 'Ice Bucket Challenge' viral phenomenon in 2014 raised awareness for which disease?",
+    "answers": ["Multiple Sclerosis", "Parkinson's Disease", "ALS (Amyotrophic Lateral Sclerosis)", "Alzheimer's Disease"],
+    "correct": 2
+  },
+  {
+    "id": 39,
+    "category": "Pop Culture",
+    "question": "Which video game character is Nintendo's most famous mascot?",
+    "answers": ["Link", "Sonic the Hedgehog", "Mario", "Pikachu"],
+    "correct": 2
+  },
+  {
+    "id": 40,
+    "category": "Pop Culture",
+    "question": "The 2009 film 'Avatar', directed by James Cameron, became the highest-grossing film of all time. On which planet is it set?",
+    "answers": ["Pandora", "Endor", "Arrakis", "Tatooine"],
+    "correct": 0
+  }
+]
